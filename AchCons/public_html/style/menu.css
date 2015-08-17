@@ -240,10 +240,11 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 }
 
 .fullwidth img{
-    /* width: 100% !important; */
+    width: 100% !important;
 }
 
 .benifits img{
+    width: auto !important;
     padding-right: 20px;
 
 }
