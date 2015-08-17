@@ -240,5 +240,39 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 }
 
 .fullwidth img{
-    width: 100% !important;
+    /* width: 100% !important; */
+}
+
+.benifits img{
+    padding-right: 20px;
+
+}
+
+.benifits{
+    padding-left: 154px;
+    text-align: left;
+}
+
+.carous1{
+
+    /* padding-left: 0px !important; */ 
+}
+.carous2{
+    padding-right: 63px;
+}
+@media (min-width: 1200px){
+    .newwidth {
+        width: 1264px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media (min-width: 768px){
+.carous1{
+    /* padding-left: 0px; */ 
+}
+.carous2{
+    padding-right: 0px;
+}
 }
