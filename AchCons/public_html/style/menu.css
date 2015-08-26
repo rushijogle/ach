@@ -254,6 +254,28 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     text-align: left;
 }
 
+
+.attitude-carousel{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    /* margin-bottom: 85px; */ 
+    text-align: right;
+    font-size: 43px;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.attitude-text{
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.attitude-text1{
+    margin-bottom: 225px;
+    text-align: right;
+    font-size: 15px;
+    padding-left: 180px;
+}
 .carous1{
 
     /* padding-left: 0px !important; */ 
@@ -270,10 +292,10 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 }
 
 @media (min-width: 768px){
-.carous1{
-    /* padding-left: 0px; */ 
-}
-.carous2{
-    padding-right: 0px;
-}
+    .carous1{
+        /* padding-left: 0px; */ 
+    }
+    .carous2{
+        padding-right: 0px;
+    }
 }
