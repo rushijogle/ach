@@ -8,8 +8,8 @@ and open the template in the editor.
     <head>
         <title>ACH Consultant</title>
         <link rel="icon" type="image/png" href="img/450x407.png">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
         <link href="style/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="style/menu.css">
@@ -39,6 +39,10 @@ and open the template in the editor.
                                 .when('/home', {
                                     templateUrl: 'View/home.html',
                                     controller: 'MainCtrl'
+                                })
+                                .when('/aboutus', {
+                                    templateUrl: 'View/aboutus.html'
+                                   // controller: 'MainCtrl'
                                 })
                                 .when('/careers', {
                                     templateUrl: 'View/career.html',
@@ -147,7 +151,7 @@ and open the template in the editor.
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav setup">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US </a>
+                                <a href="#/aboutus" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US </a>
                                 <ul class="dropdown-menu colorgrey">
                                     <li><a href="#">Our Values</a></li>
                                     <li><a href="#">Client Testimonial</a></li>
@@ -190,7 +194,7 @@ and open the template in the editor.
             </nav>
 
         </div>
-        <div ng-view style="text-align: center"></div>
+        <div ng-view style="text-align: center; margin-top: 85px;"></div>
         <div class="container" style="height:5px; background-color:#0099CB;"> </div>
         <div class="container">
             <div class="row">     

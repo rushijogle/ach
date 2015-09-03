@@ -250,6 +250,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 }
 
 .benifits{
+
     padding-left: 154px;
     text-align: left;
 }
@@ -259,23 +260,89 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
     /* margin-bottom: 85px; */ 
     text-align: right;
-    font-size: 43px;
+    font-size: 53px;
     text-transform: none;
     color: #ffffff;
+    margin-right: -204px;
+}
+
+.courage-carousel{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 420px; 
+    text-align: left;
+    font-size: 53px;
+    text-transform: none;
+    color: #ffffff;
+    margin-left: -204px;   
+
+}
+
+.humility-carousel{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 420px; 
+    text-align: right;
+    font-size: 53px;
+    text-transform: none;
+    color: #ffffff;
+    margin-right: -204px;  
+
+}
+
+
+.unfolding-carousel{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 420px; 
+    text-align: right;
+    font-size: 53px;
+    text-transform: none;
+    color: #ffffff;
+    margin-right: -204px;  
+}
+.benifitsperks{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .attitude-text{
+    text-align: justify;
+    padding-left: 315px;
+    line-height: 1.2;
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
-    text-align: right;
-    font-size: 15px;
+    font-size: 20px;
+    margin-right: -204px;
 }
 
 .attitude-text1{
-    margin-bottom: 225x;
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 300px;
     text-align: right;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 180px;
+    margin-right: -204px;
 }
+.fitfont{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    margin-top: 55px;
+    margin-bottom: 33px;
+}
+
+.divider{
+    background: url(../img/divider.png) repeat-x top left;
+    margin: -3px auto 27px;
+    height: 3px;
+    width: 173px;
+}
+
+.fitpadding{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 22px;
+}
+
 .carous1{
 
     /* padding-left: 0px !important; */ 
