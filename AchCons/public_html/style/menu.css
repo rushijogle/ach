@@ -350,6 +350,30 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 .carous2{
     padding-right: 63px;
 }
+
+
+
+
+
+
+
+
+
+/***************** about us page *****************/
+
+.aboutusalignment p{
+    text-align: justify;
+}
+
+.aboutusheader{
+    text-align: left;
+}
+/***************** about us page end *****************/
+
+
+
+
+
 @media (min-width: 1200px){
     .newwidth {
         width: 1264px !important;
