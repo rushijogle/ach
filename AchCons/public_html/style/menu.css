@@ -341,6 +341,25 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     padding-left: 200px;
     padding-right: 200px;
     font-size: 22px;
+    text-align: justify;
+}
+
+.fitpaddingUnfolding{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.unFoldingbanner{
+    margin-top: 35px;
+}
+
+.careerUnfolding{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    background: #0f2105;
+    color:white;
 }
 
 .carous1{
