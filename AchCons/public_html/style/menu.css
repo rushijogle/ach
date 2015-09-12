@@ -291,7 +291,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .unfolding-carousel{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 420px; 
+    /* margin-bottom: 85px; */ 
     text-align: right;
     font-size: 53px;
     text-transform: none;
@@ -313,6 +313,31 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     font-size: 20px;
     margin-right: -204px;
 }
+
+.unfolding-text{
+    text-align: justify;
+    padding-left: 315px;
+    line-height: 1.2;
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-right: -204px;
+       margin-bottom: 20px;
+    
+}
+
+.unfolding-text1{
+    text-align: justify;
+    padding-left: 315px;
+    line-height: 1.2;
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-right: -204px;
+       margin-bottom: 250px;
+    
+}
+
 
 .attitude-text1{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
