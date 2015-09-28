@@ -268,7 +268,6 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .courage-carousel{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 420px; 
     text-align: left;
     font-size: 53px;
     text-transform: none;
@@ -279,7 +278,6 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .humility-carousel{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 420px; 
     text-align: right;
     font-size: 53px;
     text-transform: none;
@@ -322,8 +320,8 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     margin-bottom: 20px;
     font-size: 20px;
     margin-right: -204px;
-       margin-bottom: 20px;
-    
+    margin-bottom: 20px;
+
 }
 
 .unfolding-text1{
@@ -334,18 +332,19 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     margin-bottom: 20px;
     font-size: 20px;
     margin-right: -204px;
-       margin-bottom: 250px;
-    
+    margin-bottom: 250px;
+
 }
 
 
 .attitude-text1{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
     margin-bottom: 300px;
-    text-align: right;
+    text-align: justify;
     font-size: 20px;
-    padding-left: 180px;
+    padding-left: 315px;
     margin-right: -204px;
+    
 }
 .fitfont{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
@@ -396,9 +395,24 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 }
 
 
+/*************** career page **************/
+.careerClass{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 0;
+    font-size: 53px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
 
 
-
+.careerTitle{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    
+}
 
 
 
@@ -411,6 +425,51 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .aboutusheader{
     text-align: left;
+}
+
+.aboutUs{  
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    /* margin-bottom: 85px; */ 
+    text-align: right;
+    font-size: 53px;
+    text-transform: none;
+    color: #ffffff;
+    margin-right: -204px;
+    margin-top: -272px;
+}
+
+.courage-text{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 303px;
+    margin-left: -204px;
+}
+
+.courage-text1{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 280px;
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 303px;
+    margin-left: -204px;
+}
+
+.humility-text{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 380px;
+    margin-right: -204px;  
+}
+
+.humility-text1{
+    font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
+    margin-bottom: 280px;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 380px;
+    margin-right: -204px;   
 }
 /***************** about us page end *****************/
 
