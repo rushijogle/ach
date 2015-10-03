@@ -31,109 +31,10 @@ and open the template in the editor.
         <script src="js/bootstrap.min.js"></script>
         <script src="js/ui-bootstrap-tpls-0.13.1.min.js"></script>
         <script src="js/bootstrap-submenu.js"></script>
+        <script src="js/main.js"></script>
         <script>
 
-                    var app = angular.module('countryApp', ['ngRoute', 'ui.bootstrap']);
-                    app.config(function ($routeProvider) {
-                        $routeProvider
-                                .when('/home', {
-                                    templateUrl: 'View/home.html',
-                                    controller: 'MainCtrl'
-                                })
-                                .when('/aboutus', {
-                                    templateUrl: 'View/aboutus.html'
-                                   // controller: 'MainCtrl'
-                                })
-                                .when('/careers', {
-                                    templateUrl: 'View/career.html',
-                                    /*  controller: 'MainCtrl' */
-                                })
-                                .otherwise({
-                                    redirectTo: '/',
-                                    templateUrl: 'View/home.html',
-                                    controller: 'MainCtrl'
-                                });
-                    })
-                    app.controller('MainCtrl', function ($scope, $http) {
-                        $scope.listOfCustomers = null;
-                        $scope.items2 = ["img/1.jpg",
-                            "img/2.jpg",
-                            "img/3.jpg",
-                            "img/4.jpg",
-                            "img/5.jpg",
-                            "img/6.jpg",
-                            "img/7.jpg",
-                            "img/8.jpg",
-                            "img/9.jpg",
-                            "img/10.jpg",
-                            "img/11.jpg",
-                            "img/12.jpg",
-                            "img/13.jpg",
-                            "img/14.jpg",
-                            "img/15.jpg",
-                            "img/16.jpg",
-                            "img/17.jpg",
-                            "img/18.jpg",
-                            "img/19.jpg",
-                            "img/20.jpg",
-                            "img/21.jpg",
-                            "img/22.jpg",
-                            "img/23.jpg",
-                            "img/24.jpg",
-                            "img/25.jpg",
-                            "img/26.jpg",
-                            "img/27.jpg",
-                            "img/28.jpg",
-                            "img/29.jpg",
-                            "img/30.jpg",
-                            "img/31.jpg",
-                            "img/32.jpg",
-                            "img/33.jpg",
-                            "img/34.jpg",
-                            "img/35.jpg",
-                            "img/36.jpg",
-                            "img/37.jpg"];
-                        $http.get('js/brand_photos.json').success(function (data) {
-                            $scope.listOfCustomers = data;
-                            console.log($scope.listOfCustomers.length)
-                        })
-                                .error(function (data, status, headers, config) {
-                                    //  Do some error handling here
-                                });
-                    });
-                    app.directive("owlCarousel", function () {
-                        return {
-                            restrict: 'E',
-                            transclude: false,
-                            link: function (scope) {
-                                scope.initCarousel = function (element) {
-                                    // provide any default options you want
-                                    var defaultOptions = {
-                                    };
-                                    var customOptions = scope.$eval($(element).attr('data-options'));
-                                    // combine the two options objects
-                                    for (var key in customOptions) {
-                                        defaultOptions[key] = customOptions[key];
-                                    }
-                                    // init carousel
-                                    $(element).owlCarousel(defaultOptions);
-                                };
-                            }
-                        };
-                    })
-
-                    app.directive('owlCarouselItem', [function () {
-                            return {
-                                restrict: 'A',
-                                transclude: false,
-                                link: function (scope, element) {
-                                    // wait for the last item in the ng-repeat then call init
-                                    if (scope.$last) {
-                                        scope.initCarousel(element.parent());
-                                    }
-                                }
-                            };
-                        }]);</script>
+                   </script>
     </head>
     <body>
         <div class="container-fluid">
@@ -153,38 +54,38 @@ and open the template in the editor.
                             <li class="dropdown">
                                 <a href="#/aboutus" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US </a>
                                 <ul class="dropdown-menu colorgrey">
-                                    <li><a href="#">Our Values</a></li>
-                                    <li><a href="#">Client Testimonial</a></li>
-                                    <li><a href="#">Candidate Testimonial</a></li>
-                                    <li><a href="#">FMCG Experty</a></li>
-                                    <li><a href="#">Our Responsibilities</a></li>
-                                    <li><a href="#">DNA Of ACH</a></li>
-                                    <li><a href="#">Industry Outlook</a></li>
-                                    <li><a href="#">Initiatives</a></li>
-                                    <li><a href="#">Orgonogram Of ACH</a></li>
+                                    <li><a href="#/our_values">Our Values</a></li>
+                                    <li><a href="#/client_testimonial">Client Testimonial</a></li>
+                                    <li><a href="#/candidate_testimonial">Candidate Testimonial</a></li>
+                                    <li><a href="#/fmcg">FMCG Experty</a></li>
+                                    <li><a href="#/our_responsibility">Our Responsibilities</a></li>
+                                    <li><a href="#/dnaofach">DNA Of ACH</a></li>
+                                    <li><a href="#/industry_outlook">Industry Outlook</a></li>
+                                    <li><a href="#/initiative">Initiatives</a></li>
+                                    <li><a href="#/orgonogram">Orgonogram Of ACH</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#"> OUR CONSULTANTS</a></li>
+                            <li><a href="#/our_consultant"> OUR CONSULTANTS</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES </a>
                                 <ul class="dropdown-menu colorgrey">
-                                    <li><a href="#">Executive Search</a></li>
-                                    <li><a href="#">CEO And Director Search</a></li>
-                                    <li><a href="#">Diversity Inclusion</a></li>
-                                    <li><a href="#">Family Business Consulting</a></li>
+                                    <li><a href="#/exe_search">Executive Search</a></li>
+                                    <li><a href="#/ceosearch">CEO And Director Search</a></li>
+                                    <li><a href="#/diversity_inclusion">Diversity Inclusion</a></li>
+                                    <li><a href="#/family_buisness">Family Business Consulting</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ASSOCIATE COMPANIES </span></a>
                                 <ul class="dropdown-menu colorgrey">
-                                    <li><a href="#"> ACH InfoQuest</a></li>
-                                    <li><a href="#">Bejobbed</a></li>
+                                    <li><a href="#/ach_infoquest"> ACH InfoQuest</a></li>
+                                    <li><a href="#/bejobbed">Bejobbed</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">JOBS</a></li>
-                            <li><a href="#">CareerSnaps</a></li>
+                            <li><a href="#/jobs">JOBS</a></li>
+                            <li><a href="#/careeersnaps">CareerSnaps</a></li>
                             <li><a href="#/careers">CAREERS</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#/contact">CONTACT</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
 
