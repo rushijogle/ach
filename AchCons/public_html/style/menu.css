@@ -105,7 +105,11 @@ body,
     background-color: white; 
 }     
 
-
+.transperant-navbar{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
 #menu, .columns{
     background-color: white !important;
 }
@@ -158,7 +162,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 13px;   
-    color: black;
+    color: white;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -188,6 +192,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .hight{
     height:85px;
+    float: right;
 }
 
 
@@ -332,19 +337,19 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     margin-bottom: 20px;
     font-size: 20px;
     margin-right: -204px;
-    margin-bottom: 250px;
+    margin-bottom: 196px;
 
 }
 
 
 .attitude-text1{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 300px;
+    margin-bottom: 214px;
     text-align: justify;
     font-size: 20px;
     padding-left: 315px;
     margin-right: -204px;
-    
+
 }
 .fitfont{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
@@ -411,7 +416,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .careerTitle{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    
+    margin-top: 110px;
 }
 
 
@@ -448,7 +453,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .courage-text1{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 280px;
+    margin-bottom: 196px;
     text-align: justify;
     font-size: 20px;
     padding-right: 303px;
@@ -465,7 +470,7 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
 
 .humility-text1{
     font-family: OpenSans-Semibold, Arial, Helvetica, sans-serif;
-    margin-bottom: 280px;
+    margin-bottom: 196px;
     text-align: justify;
     font-size: 20px;
     padding-left: 380px;
