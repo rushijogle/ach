@@ -132,8 +132,8 @@ body,
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: white;
-    border-bottom:3px solid #9ac83c;
+    background-color: transparent;
+   // border-bottom:3px solid #9ac83c;
 }
 
 ul.nav a:hover { color: #9ac83c !important; }
@@ -497,4 +497,6 @@ ul.nav li.dropdown:hover > ul.dropdown-submenu {
     .carous2{
         padding-right: 0px;
     }
+
 }
+
